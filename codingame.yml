@@ -1,6 +1,14 @@
-title : Content name
+title : Kotlin Course Template
 plan:
   - title: Part 1
     statement: markdowns/part1.md
   - title: Part 2
     statement: markdowns/part2.md
+  - title: Part 3
+    statement: markdowns/part3.md
+projects:
+  java:
+    root: kotlin-project
+    runner:
+      name: codingame/java-maven3-junit4-runner
+      version: 1.1.1-java-8
