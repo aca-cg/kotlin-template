@@ -11,5 +11,5 @@ projects:
     root: hello-world
 #   buildCommand: "chmod +x prebuild.sh && ./prebuild.sh"
     runner:
-      name: codingame/java-maven3-junit4-runner
-      version: 1.1.1-java-8
+      name: codingame/maven3-runner
+      version: 1.0.0-openjdk-8
