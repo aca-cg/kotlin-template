@@ -9,7 +9,7 @@ plan:
 projects:
   java:
     root: hello-world
-    buildCommand: "./prebuild.sh"
+    buildCommand: "chmod +x prebuild.sh && ./prebuild.sh"
     runner:
       name: fraisse/maven-runner
       version: 2
