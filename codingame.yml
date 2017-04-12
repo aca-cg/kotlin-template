@@ -9,6 +9,7 @@ plan:
 projects:
   java:
     root: hello-world
+    buildCommand: "./prebuild.sh"
     runner:
       name: fraisse/maven-runner
       version: 2
